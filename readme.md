@@ -50,7 +50,7 @@ let Resources = {
 
 Voor github pages moet je eindproject in een `docs` folder staan. In de ***github pages settings*** kies je voor ***publish main > docs***.
 
-![pages](./src/images/pages.png)
+![pages](./src/images/page.png)
 
 Je publiceert je project via `npm build`. Er wordt dan een docs folder aangemaakt. Je moet in `package.json` het `build` commando aanpassen zodat de juiste map wordt gebruikt: 
 
