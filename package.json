@@ -1,0 +1,17 @@
+{
+  "name": "vite-javascript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir=docs --base=/~erik/HR-Projects/Excalibur/vite-javascript/docs/",
+    "preview": "vite preview --outDir=docs --base=/~erik/HR-Projects/Excalibur/vite-javascript/docs/"
+  },
+  "devDependencies": {
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "excalibur": "^0.27.0"
+  }
+}
