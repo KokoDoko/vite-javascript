@@ -50,6 +50,8 @@ let Resources = {
 
 Voor github pages moet je eindproject in een `docs` folder staan. In de ***github pages settings*** kies je voor ***publish main > docs***.
 
+![pages](./src/images/pages.png)
+
 Je publiceert je project via `npm build`. Er wordt dan een docs folder aangemaakt. Je moet in `package.json` het `build` commando aanpassen zodat de juiste map wordt gebruikt: 
 
 ```json
@@ -57,7 +59,7 @@ Je publiceert je project via `npm build`. Er wordt dan een docs folder aangemaak
   "build": "vite build --outDir=docs --base=/projectnaam/",
 },
 ```
-> *Voorbeeld: als je project gaat draaien op `https://pages.github.io/projectnaam/`, dan vul je `/projectnaam/` in*
+> *Voorbeeld: als je project gaat draaien op `https://jouwnaam.github.io/projectnaam/`, dan vul je `/projectnaam/` in*
 
 <br>
 <br>
